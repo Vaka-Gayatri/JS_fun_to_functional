@@ -12,7 +12,7 @@ console.log(g+ " outside go!");
 var inBlock =false;
 for(var i=0;i<5;i++){
   var inBlock=true;
-};
+}; !
 if(inBlock){
-  console.log("Is there block scope? "+inBlock);
+  console.log("Is there block scope? "+ !inBlock);
 }
